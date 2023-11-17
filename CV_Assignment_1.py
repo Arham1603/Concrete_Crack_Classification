@@ -137,3 +137,5 @@ for i in range(9):
     plt.axis('off')
     plt.grid('off')
 # %%
+# Model save
+model.save(os.path.join('concrete_classify.h5'))
